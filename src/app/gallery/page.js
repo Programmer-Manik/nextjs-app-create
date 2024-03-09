@@ -1,4 +1,5 @@
 import Image from "next/image";
+import nextImage from '../../assets/docs.png'
 
 const Gallery = () => {
   return (
@@ -17,6 +18,15 @@ const Gallery = () => {
       <Image
         className="mx-auto"
         src="https://nextjs.org/api/docs-og"
+        width={500}
+        height={500}
+        alt="Picture of the author"
+      />
+
+      <h2 className="text-center text-4xl my-4">local images </h2>
+      <Image
+        className="mx-auto"
+        src={nextImage}
         width={500}
         height={500}
         alt="Picture of the author"

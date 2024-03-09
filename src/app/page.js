@@ -2,7 +2,9 @@ export const metadata = {
   title: "home page",
 };
 const Page = async () => {
-  const res = await fetch("http://localhost:5000/shoes");
+  const res = await fetch("http://localhost:5000/shoes",{
+    cache:"force-cache"
+  });
   const shoes = await res.json();
   // console.log(data)
   return (
@@ -21,13 +23,13 @@ const Page = async () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Shoes!
-                <div className="badge badge-secondary">NEW</div>
+               {data.title}
+                <div className="badge badge-secondary">{data.price}</div>
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>{data.description}</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
+              <button className="btn btn-outline btn-primary">Bay Now</button>
+              <button className="btn btn-outline btn-primary">details</button>
               </div>
             </div>
           </div>

@@ -1,9 +1,13 @@
 export const metadata = {
   title: "home page",
+  description:'this is home page '
 };
 const Page = async () => {
   const res = await fetch("http://localhost:5000/shoes",{
-    cache:"force-cache"
+    // cache:"force-cache"
+    next:{
+      revalidate:5,
+    },
   });
   const shoes = await res.json();
   // console.log(data)

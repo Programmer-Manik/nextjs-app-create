@@ -1,0 +1,41 @@
+{
+   "shoes":[
+      {
+        "id": 1,
+        "title": "Adidas Ultraboost",
+        "description": "The Adidas Ultraboost is designed for comfort and performance, featuring responsive cushioning and a lightweight knit upper.",
+        "price": 150
+      },
+      {
+        "id": 2,
+        "title": "Nike Air Max 270",
+        "description": "The Nike Air Max 270 offers a blend of style and comfort, with a large Air unit in the heel for superior cushioning and a sleek design.",
+        "price": 130
+      },
+      {
+        "id": 3,
+        "title": "Puma RS-X",
+        "description": "The Puma RS-X combines retro styling with modern comfort, featuring a bulky silhouette and cushioned midsole for all-day wear.",
+        "price": 110
+      },
+      {
+        "id": 4,
+        "title": "New Balance Fresh Foam 1080v11",
+        "description": "The New Balance Fresh Foam 1080v11 is built for long-distance running, providing plush cushioning and a breathable mesh upper for maximum comfort.",
+        "price": 150
+      },
+      {
+        "id": 5,
+        "title": "Under Armour HOVR Phantom 2",
+        "description": "The Under Armour HOVR Phantom 2 offers a secure fit and responsive cushioning, ideal for both running and everyday wear.",
+        "price": 140
+      },
+      {
+        "id": 6,
+        "title": "Brooks Ghost 14",
+        "description": "The Brooks Ghost 14 delivers a smooth ride and reliable traction, featuring DNA LOFT cushioning and a comfortable mesh upper.",
+        "price": 130
+      }
+    ]
+    
+ }

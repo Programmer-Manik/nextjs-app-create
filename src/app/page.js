@@ -1,3 +1,6 @@
+export const metadata = {
+  title:'home page'
+}
 const Page = () => {
   return (
     <div>

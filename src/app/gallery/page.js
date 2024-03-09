@@ -1,5 +1,12 @@
 import Image from "next/image";
-import nextImage from '../../assets/docs.png'
+import nextImage from '@/assets/docs.png'
+
+
+export const metadata = {
+   title: "gallery | image",
+   description: "this is gallery image components",
+ };
+
 
 const Gallery = () => {
   return (
